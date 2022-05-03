@@ -1,7 +1,7 @@
-div + div {
+div[class="form-field"] + div[class="form-field"] {
   margin-top: 10px;
 }
 
-fieldset + fieldset {
+fieldset[class="input-block"] + fieldset[class="input-block"] {
   margin-top: 20px;
 }
