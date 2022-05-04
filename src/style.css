@@ -1,7 +1,7 @@
-div[class="form-field"] + div[class="form-field"] {
+.form-field:not(:first-of-type) {
   margin-top: 10px;
 }
 
-fieldset[class="input-block"] + fieldset[class="input-block"] {
+.input-block:not(:first-of-type) {
   margin-top: 20px;
 }
